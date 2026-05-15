@@ -1,0 +1,957 @@
+update content template library using the following details:
+
+# Acefone — Content Templates Library
+### KB-06 | For Marketing Team & AI Collateral Generation
+**Version**: 1.0 | **Last updated**: May 2026 | **Load with**: Acefone_Business_Context_File.md
+
+---
+
+## HOW TO USE THIS FILE
+
+Load this file alongside the Acefone Business Context File when generating any marketing collateral. This document contains the structure, word counts, copy templates, CTAs, do's/don'ts, and fill-in frameworks for every content type Acefone produces.
+
+**Variables notation**: `[VARIABLE]` = fill in | `{OPTION A / OPTION B}` = choose one | *italics* = instruction, not copy
+
+---
+
+## PART 1: BLOG POSTS
+
+### 1.1 Blog Post Structure
+
+*Standard structure all blog posts must follow.*
+
+**1. Title (H1) — primary keyword**
+Format: `[Primary keyword phrase] — [secondary angle or audience]`
+Example: `Voice Bot vs IVR for Fast-Growing Businesses`
+Example: `How NBFCs Are Automating DPD 1-30 Collections in 2026`
+
+**2. Introduction (150–200 words)**
+- Hook: one sharp sentence that names the pain or the stakes
+- Problem statement: the specific operational reality the reader is living in
+- What they'll learn: one sentence on what the post delivers
+- Do not tease without delivering. Do not start with "In today's fast-paced world."
+
+*Template:*
+```
+[Sharp hook — name the pain or the paradox].
+
+[Problem statement — 2–3 sentences describing the ops reality. Use numbers where possible. ₹, %, call volumes, team sizes.]
+
+In this [guide / breakdown / comparison], you'll [learn / see / understand] [specific outcome the reader gets from reading].
+```
+
+*Example:*
+```
+Most e-commerce operations managers running COD confirmation calls know the number: ₹150 per call.
+What they don't always know is that 30–40% of those calls result in a returned order anyway.
+
+At 50,000 calls a month, that's ₹75 lakh in call costs — and a returns problem that manual calling
+can't fix.
+
+In this guide, you'll see exactly how voice automation is cutting COD-related costs by 60–70%,
+and how to deploy it without an engineering team.
+```
+
+**3. H2 Sections (3–7 per post)**
+
+*Structure rules:*
+- Each H2 should answer one specific question or make one specific point
+- Minimum one data point, example, or proof per section
+- If comparing two things: use a table
+- If listing steps: use numbered list
+- If making a claim: follow immediately with evidence
+
+*H2 naming patterns that work for Acefone:*
+- "Why [X] Is No Longer Enough" (problem deepening)
+- "How [X] Works — and What It Actually Does" (education)
+- "The [X] vs [Y] Comparison: What Ops Managers Actually Need to Know" (comparison)
+- "What to Look for in a [Category] Platform" (evaluation frame)
+- "How [Company type] Are Using [Feature] to [Outcome]" (proof/use case)
+- "Common Objections — and What the Data Says" (objection handling)
+
+**4. Conclusion + CTA (100–150 words)**
+
+*Template:*
+```
+[1–2 sentence summary of the core takeaway — what changed in their thinking after reading this.]
+
+[Bridge to action — 1 sentence connecting the takeaway to AceX specifically, without being abrupt.]
+
+[CTA — one of the standard CTAs from Part 5. Match urgency to the post's trigger context.]
+```
+
+---
+
+### 1.2 Word Count Guidelines
+
+| Content Type | Min | Max | Sweet Spot | Notes |
+|---|---|---|---|---|
+| Blog post (educational) | 1,200 | 3,000 | 1,800–2,200 | Longer for high-intent SEO topics (compliance, comparisons) |
+| Blog post (thought leadership) | 700 | 1,500 | 900–1,200 | LinkedIn-native length. Punchy, perspective-forward. |
+| Blog post (product/use case) | 800 | 1,800 | 1,200–1,500 | Use case-led. Show, don't just tell. |
+| Landing page (hero + body) | 400 | 900 | 500–700 | Less is more. Proof blocks do the heavy lifting. |
+| Product page | 500 | 1,200 | 700–900 | Feature → benefit → proof per section. |
+| Case study | 600 | 1,200 | 800–1,000 | Before / After / How / Result. Always include numbers. |
+| Email (nurture) | 120 | 250 | 150–180 | One idea. One CTA. No padding. |
+| Email (onboarding) | 80 | 200 | 100–150 | Tell them one thing to do. Nothing else. |
+| LinkedIn post (organic) | 150 | 700 | 250–400 | Hook in line 1. Payoff before the fold. |
+| LinkedIn ad copy | 50 | 150 | 80–120 | Benefit-first. One claim. One CTA. |
+| Google Search ad (headline) | — | 30 chars | — | 3 headlines per ad. |
+| Google Search ad (description) | — | 90 chars | — | 2 descriptions per ad. |
+| Sales one-pager | 300 | 500 | 350–450 | One ICP, one use case, one outcome, one CTA. |
+| Battlecard | 400 | 700 | 500–600 | Must fit one screen. No scrolling in a sales call. |
+
+---
+
+### 1.3 Blog Post Templates by Type
+
+#### Template A: Problem-Solution Blog (most common)
+
+```
+TITLE: [Primary keyword] — [audience or context]
+
+INTRO:
+[Pain hook — one sentence, specific number or scenario]
+[2–3 sentences expanding the problem with data]
+[What this post delivers]
+
+H2: [Why the current approach is failing / the cost of inaction]
+[Evidence, data, real scenario]
+
+H2: [What [solution category] actually is — clear, no jargon]
+[Simple explanation + what it does in practice for the reader's ICP]
+
+H2: [How it works in practice — the workflow or deployment reality]
+[Step or stage breakdown. Make it concrete.]
+
+H2: [What to look for / how to evaluate options]
+[3–5 criteria. Position AceX's differentiators as the criteria naturally.]
+
+H2: [Common objections or concerns — and what the data says]
+[Address 2–3 real objections. Use proof, not reassurance.]
+
+CONCLUSION:
+[Core takeaway in 1–2 sentences]
+[Bridge to AceX]
+[CTA]
+```
+
+---
+
+#### Template B: Comparison Blog (high SEO intent)
+
+```
+TITLE: [Product A] vs [Product B]: What [Audience] Actually Need to Know
+
+INTRO:
+[Frame the comparison — why it matters to this specific reader]
+[What this post will cover — criteria, not just features]
+
+H2: [What each product is — 1 paragraph per product. Neutral, factual.]
+
+H2: [Comparison by Criterion 1 — the most important one for AceX's ICP]
+[Table or side-by-side. Use real numbers.]
+
+H2: [Comparison by Criterion 2]
+
+H2: [Comparison by Criterion 3]
+
+H2: [Who each product is actually right for]
+[Be honest. AceX wins on no-code, India compliance, speed. Say so.]
+
+CONCLUSION:
+[Summary of the comparison in 2 sentences]
+[When to choose AceX — be specific]
+[CTA]
+```
+
+---
+
+#### Template C: How-To / Use Case Blog
+
+```
+TITLE: How to [Achieve Outcome] with [Product/Method] — [Audience Context]
+
+INTRO:
+[The assumption most ops managers start with — and why it's wrong]
+[What's actually possible, and how fast]
+[What this guide covers]
+
+H2: [What you need before you start — prerequisites]
+
+H2: [Step 1: [Action]]
+[Specific instructions. No vague "configure your settings".]
+
+H2: [Step 2: [Action]]
+
+H2: [Step 3: [Action]]
+
+H2: [What success looks like — metrics and signals to watch]
+
+H2: [Common mistakes and how to avoid them]
+
+CONCLUSION:
+[What they can now do that they couldn't before]
+[CTA — "build your first agent", "book a demo", "start a POC"]
+```
+
+---
+
+## PART 2: LANDING PAGES
+
+### 2.1 Landing Page Structure
+
+*For campaign landing pages, product pages, and comparison pages.*
+
+```
+[HERO SECTION]
+Headline (H1): [Primary benefit or outcome — 6–10 words max]
+Subheadline: [Expand on headline — one sentence. Name the ICP and the pain.]
+CTA Button: [Primary CTA — see Part 5]
+Trust signal: [5,000+ businesses | DoT-licensed VNO | DPDPA compliant | 500–600ms latency]
+
+[PROBLEM SECTION]
+Header: "The [ICP] problem with [current solution]"
+3 pain points in short blocks. Each: [Pain] → [Cost of that pain]
+
+[SOLUTION SECTION]
+Header: "[Outcome] in [timeframe]. Without [the thing they fear]."
+3–5 capability blocks. Each: [Feature name] + [What it actually does for them] + [Proof point]
+
+[PROOF SECTION]
+Header: "What [ICP type] managers are saying"
+1–2 customer quotes (real, or placeholder if not yet available)
+Key metrics: [60–70% cost reduction | 48 hours to deploy | ₹1/min target]
+
+[COMPETITIVE SECTION — for comparison pages only]
+Header: "Why ops managers choose AceX over [competitor]"
+Comparison table: AceX vs [competitor]. 5–7 rows. Honest.
+
+[FAQ SECTION]
+5–7 questions. Answer each in 2–4 sentences. Use exact objection language from Part 6.
+
+[FINAL CTA SECTION]
+Headline: [Restate the core outcome]
+CTA Button: [Same as hero]
+Supporting line: [Remove last friction — "No engineering team needed" / "Up and running in 48 hours"]
+```
+
+---
+
+### 2.2 Landing Page Copy Templates by ICP
+
+#### ICP #1 — E-commerce Landing Page
+
+```
+HEADLINE: Cut Your COD Call Costs by 60%. Deploy Before Your Next Sale Season.
+
+SUBHEADLINE: AceX lets e-commerce ops managers automate COD confirmations, order tracking,
+and customer support — without writing a single line of code.
+
+CTA: See a 5-Minute Demo
+
+PROBLEM BLOCK:
+₹150 per confirmation call. 30–40% RTOs anyway. And a 3x spike coming every festive season.
+Your team is at capacity. Hiring doesn't scale. Manual calling doesn't either.
+
+SOLUTION BLOCKS:
+→ No-code agent creation: Describe your use case in two sentences. AceX builds the agent prompt.
+   Go live in hours.
+→ AI Evaluators: Test 50 scenarios before a real customer hears your bot. Only AceX offers this.
+→ Agentic tool calling: Your bot confirms the COD, fetches the order status, sends a WhatsApp
+   confirmation — all in one call.
+→ Single invoice: One platform. No Twilio, no separate LLM provider, no billing chaos.
+
+PROOF:
+"We went live in one day. Our support bill dropped in half in the first month."
+
+METRICS: ₹75,000 for 12,500 minutes | 500–600ms latency | 48 hours to first live agent
+
+FAQ STARTERS:
+- Do I need a developer to set this up?
+- Is AceX compliant with Indian regulations?
+- What happens when the bot can't handle a call?
+- How do I test the bot before it goes live?
+```
+
+---
+
+#### ICP #2 — BPO Landing Page
+
+```
+HEADLINE: Win Your Next AI RFP. Deploy a Client-Ready Voice Agent in 48 Hours.
+
+SUBHEADLINE: AceX gives BPO operations managers a working voice agent — tested, deployed,
+and client-demo-ready — without an in-house AI team.
+
+CTA: Book a 30-Minute BPO Demo
+
+PROBLEM BLOCK:
+Your clients are asking for AI voice capability. Your RFPs have "deflection rate" in them.
+You don't have an AI team. And you can't afford 6 months to respond.
+
+SOLUTION BLOCKS:
+→ 48-hour deployment: Configure, test, and demo a voice agent before your next client call.
+→ AI Evaluators: Run 50 test scenarios before the client demo. Walk in with proof, not promises.
+→ Multi-client monitoring: One dashboard for every client's voice agent. Real-time transcripts,
+   success metrics, latency data.
+→ Flexible deployment: Standalone voice bot or integrated with your existing contact center stack.
+
+PROOF: "We won 3 client RFPs in 60 days using AceX as our AI capability."
+
+METRICS: ₹75,000 starter | 48-hour deployment | Single platform for all clients
+```
+
+---
+
+#### ICP #3 — BFSI / Collections Landing Page
+
+```
+HEADLINE: Automate DPD 1-30 Collections. Stay DPDPA and RBI Compliant.
+
+SUBHEADLINE: AceX lets NBFC and fintech operations managers deploy Hindi-capable collections
+agents — without a developer, without a compliance risk.
+
+CTA: See a Collections Call Demo
+
+PROBLEM BLOCK:
+NPAs are climbing. Your collections team is at capacity at ₹200/call. And your current voice
+platform routes data through US servers — which your legal team is not comfortable with.
+
+SOLUTION BLOCKS:
+→ India-native compliance: DPDPA 2023, RBI data localisation, IRDAI call recording — all
+   natively satisfied. No workarounds.
+→ Hinglish and regional language: Native support for Hindi-English code-switching.
+   Sarvam AI and Smallest AI under the hood.
+→ Collections-specific tool calling: Send payment links via SMS during the call. Fetch DPD
+   data from your CRM. Schedule callbacks. All in one interaction.
+→ Pre-deployment testing: Test your collections agent against 50 scenarios before it calls
+   a single borrower.
+
+PROOF: "My legal team finally said yes. DPDPA, RBI, IRDAI — all covered."
+
+METRICS: ₹200 → ₹50 per collections call | Hinglish native | India data residency guaranteed
+```
+
+---
+
+## PART 3: EMAIL TEMPLATES
+
+### 3.1 Email Sequence: Demo Follow-Up (5-email series)
+
+*Trigger: prospect attended a demo but has not booked a POC.*
+
+---
+
+**Email 1 — Send: 2 hours after demo**
+```
+Subject: Your AceX demo — next step
+
+[First name],
+
+Thanks for the time today. Quick recap of what we covered:
+
+→ [Use case discussed — e.g., COD automation / collections agent / BPO RFP readiness]
+→ [Key number from demo — e.g., 48-hour deployment / ₹1/min pricing]
+→ [One differentiator that landed — e.g., AI Evaluators / India compliance / no-code]
+
+One thing worth noting: the POC is ₹75,000 for 12,500 minutes. Most teams have a live
+agent within 48 hours of starting.
+
+If you want to take the next step, here's how we run the POC: [link to POC guide or calendar]
+
+[Name]
+```
+
+---
+
+**Email 2 — Send: 3 days after demo**
+```
+Subject: The question ops managers ask most after seeing AceX
+
+[First name],
+
+The question we get most after a demo: "What if my engineering team pushes back?"
+
+Here's what usually happens: they don't need to be involved. AceX is configured by the
+ops manager. IT reviews the compliance documentation (we provide it). Legal reviews
+the data residency overview (we provide that too).
+
+The only time engineering gets involved is if you want a custom CRM integration — and
+even then, it's an API call, not a build.
+
+If it would help, I can send you the compliance one-pager and IT overview. Just say the
+word.
+
+[Name]
+```
+
+---
+
+**Email 3 — Send: 7 days after demo**
+```
+Subject: What a ₹75K POC actually looks like
+
+[First name],
+
+A few things the POC covers in the first 30 days:
+
+Week 1: Configure your first agent. Define success criteria. Test with AI Evaluators.
+Week 2: Go live on a subset of real calls. Monitor transcripts and success rates.
+Week 3: Iterate. Adjust the agent based on what the data shows.
+Week 4: Report. Cost per call, success rate, escalation rate. Compare to your baseline.
+
+Most teams have enough data to make a go/no-go decision by end of Week 3.
+
+Worth a 15-minute call to walk through what this looks like for [their use case]?
+
+[Name]
+```
+
+---
+
+**Email 4 — Send: 14 days after demo**
+```
+Subject: One thing that might be relevant
+
+[First name],
+
+I noticed [trigger — e.g., "the festive season is 8 weeks away" / "RBI guidelines on
+collections automation were updated last month" / "Vapi just changed their pricing"].
+
+[1–2 sentences on why that matters for their specific situation.]
+
+If the timing is right to move forward, I'm happy to start the POC this week.
+If not — no pressure. I'll check back in [timeframe].
+
+[Name]
+```
+
+---
+
+**Email 5 — Send: 21 days after demo**
+```
+Subject: Closing the loop
+
+[First name],
+
+I've sent a few notes over the past few weeks and haven't heard back — which usually
+means one of three things:
+
+1. The timing isn't right (totally fine — when would be?)
+2. Something came up internally (happy to revisit)
+3. You've decided to go another direction (also fine — would you mind sharing why?)
+
+Either way, just let me know. I'll follow your lead.
+
+[Name]
+```
+
+---
+
+### 3.2 Email Sequence: Onboarding (first 14 days post-signup)
+
+*Trigger: customer completes signup or POC kickoff.*
+
+---
+
+**Onboarding Email 1 — Day 0 (same day as signup)**
+```
+Subject: You're in. Here's how to go live in 48 hours.
+
+[First name],
+
+Welcome to AceX.
+
+Your one task for today: define your first use case.
+
+Don't overthink it. Describe it in 1–2 sentences:
+"I want a bot that confirms COD orders for customers who haven't paid yet."
+That's it. The platform builds the agent prompt from there.
+
+Here's the 48-hour checklist: [link]
+
+If you hit anything unexpected, reply to this email. We'll unblock you same day.
+
+[Name]
+```
+
+---
+
+**Onboarding Email 2 — Day 2**
+```
+Subject: Have you run your first AI Evaluator test yet?
+
+[First name],
+
+Before your agent goes live — run it through AI Evaluators.
+
+Set up 5 test scenarios. Define success criteria. Run them. See where the agent
+performs and where it needs adjustment.
+
+This is the step that separates a good first deployment from a rocky one.
+It takes about 30 minutes. Here's how: [link to guide]
+
+[Name]
+```
+
+---
+
+**Onboarding Email 3 — Day 7**
+```
+Subject: Your first week — what to watch
+
+[First name],
+
+If your agent has been live for a few days, here are the three numbers to track:
+
+→ Success rate: what % of calls hit your defined success criteria?
+→ Escalation rate: what % transferred to a human agent?
+→ Average call duration: longer than expected can mean the agent is looping
+
+If any of these look off, reply here and we'll look at the transcript data together.
+
+[Name]
+```
+
+---
+
+**Onboarding Email 4 — Day 14**
+```
+Subject: Week 2 check-in — and one thing to try next
+
+[First name],
+
+Two weeks in. A quick question: are you seeing the results you expected?
+
+If yes — here's what most teams try next: [tool calling / multilingual / outbound campaign]
+
+If not — I'd like to see your transcript data. Reply with your account ID and we'll
+identify what needs adjusting.
+
+[Name]
+```
+
+---
+
+### 3.3 Email Template: Trigger-Based Outreach
+
+*For outbound prospecting based on a specific trigger.*
+
+```
+Subject: [Trigger-specific subject — see examples below]
+
+[First name],
+
+[1 sentence that names the trigger — make it clear you're not spray-and-pray]
+
+[2–3 sentences connecting the trigger to their specific likely pain — use ICP context]
+
+[1 sentence on what AceX does for that pain — outcome-first, not feature-first]
+
+[One specific proof point or number]
+
+Worth a 15-minute call?
+
+[Your name]
+[Title] | Acefone
+
+```
+
+*Subject line examples by trigger:*
+- `Re: your Diwali sale prep` (seasonal spike trigger)
+- `Re: the AI RFP from [client name]` (BPO RFP trigger)
+- `Re: RBI's updated fair practices circular` (compliance trigger)
+- `Re: [competitor] pricing change` (competitor dissatisfaction trigger)
+- `Re: your collections NPA trend` (BFSI NPA trigger)
+
+---
+
+## PART 4: LINKEDIN TEMPLATES
+
+### 4.1 LinkedIn Organic Post Templates
+
+#### Template A: Insight + Implication (most shareable)
+
+```
+[Counterintuitive statement or sharp data point].
+
+[2–3 lines expanding the insight. Make it specific to the India ops manager context.]
+
+[Bridge: "Here's what this means for [ICP]:" or "The implication:"]
+
+[3–5 short lines — each one a discrete point. One idea per line. No padding.]
+
+[Closing line: a question, a reframe, or a provocative takeaway]
+
+[Optional: tag a relevant trend or product angle — but don't force it]
+```
+
+*Example:*
+```
+Most voice AI projects in India fail before they start.
+
+Not because the technology is bad. Because the person tasked with deploying it
+doesn't have an engineering team — and every platform assumes they do.
+
+Here's what that looks like in practice:
+
+→ Vapi: needs a developer to configure and maintain
+→ Yellow.ai: 3-month implementation, enterprise-only
+→ Build in-house: ₹50L minimum, 12+ months, no guarantee
+
+The ops manager who has the mandate, the budget, and the deadline gets stuck
+waiting for engineering capacity that never comes.
+
+This is the gap AceX was built to close.
+
+What's the biggest blocker you've seen in AI implementation projects?
+```
+
+---
+
+#### Template B: Before / After (conversion-optimized)
+
+```
+Before AceX: [specific painful reality — be concrete]
+After AceX: [specific outcome — use numbers]
+
+[3–4 lines of context: what changed, how fast, what it means for the team]
+
+[CTA or engagement hook]
+```
+
+---
+
+#### Template C: Myth / Truth (debate-starting)
+
+```
+Myth: [common assumption that ops managers hold]
+Truth: [the reality — backed by a number or a specific example]
+
+[3–5 lines expanding the truth with context]
+
+[1-line close: implication or action]
+```
+
+---
+
+#### Template D: List Post (educational)
+
+```
+[X] things ops managers don't know about [topic]:
+
+1. [Specific, non-obvious point]
+2. [Specific, non-obvious point]
+3. [Specific, non-obvious point]
+4. [Specific, non-obvious point]
+5. [Specific, non-obvious point]
+
+[1–2 lines connecting the list to AceX — lightly. Don't force it.]
+
+[Engagement hook: "Which of these surprised you most?"]
+```
+
+---
+
+### 4.2 LinkedIn Ad Copy Templates
+
+#### Ad Template A: Pain-Led (awareness / consideration)
+
+```
+HEADLINE 1: [Pain in 5 words or fewer]
+HEADLINE 2: [Solution or outcome]
+HEADLINE 3: AceX by Acefone
+
+DESCRIPTION 1: [Pain expanded + number] → [Outcome + timeframe]. No engineering team needed.
+DESCRIPTION 2: DPDPA compliant. India infrastructure. ₹1/min. Deploy in 48 hours.
+
+CTA BUTTON: Book a Demo / Learn More / Get Started
+```
+
+*Example — E-commerce:*
+```
+HEADLINE 1: ₹150 Per COD Call?
+HEADLINE 2: Automate It. Deploy in 48 Hours.
+HEADLINE 3: AceX by Acefone
+
+DESCRIPTION 1: Cut COD confirmation costs by 60–70%. AI voice agents for ops managers — no coding required.
+DESCRIPTION 2: India-compliant. Single invoice. Test before you go live. ₹75,000 for 12,500 minutes.
+```
+
+*Example — BPO:*
+```
+HEADLINE 1: Your Client RFP Wants AI
+HEADLINE 2: Deploy a Demo Agent in 48 Hours
+HEADLINE 3: AceX by Acefone
+
+DESCRIPTION 1: Configure and demo a client-ready voice agent without an engineering team. Test with AI Evaluators first.
+DESCRIPTION 2: ₹75,000 starter. India-compliant. One platform for all clients. No vendor dependencies.
+```
+
+*Example — BFSI:*
+```
+HEADLINE 1: Rising NPAs. Manual Calls. ₹200 Each.
+HEADLINE 2: Automate DPD Collections. Stay Compliant.
+HEADLINE 3: AceX by Acefone
+
+DESCRIPTION 1: Hindi-capable collections agents. DPDPA, RBI, IRDAI compliant. India data residency guaranteed.
+DESCRIPTION 2: ₹1/min target. No Twilio dependency. Pre-deployment testing included. Deploy in hours.
+```
+
+---
+
+#### Ad Template B: Competitive / Comparison
+
+```
+HEADLINE 1: Tired of [Competitor Pain]?
+HEADLINE 2: AceX Deploys in 48 Hours
+HEADLINE 3: No Developers. No Waiting.
+
+DESCRIPTION 1: [Competitor] requires [pain]. AceX doesn't. One platform, India-compliant, ops-manager-first.
+DESCRIPTION 2: ₹75,000 starter. AI Evaluators. Single invoice. [Primary differentiator for this audience].
+```
+
+---
+
+## PART 5: CTA LIBRARY
+
+*Standard CTA phrases used across all Acefone content. Match CTA to funnel stage.*
+
+### By Funnel Stage
+
+| Stage | CTA Text | Use In |
+|---|---|---|
+| **Awareness** | "See How It Works" | Blog posts, LinkedIn organic, display ads |
+| **Awareness** | "Read the Guide" | LinkedIn ads, email |
+| **Consideration** | "Book a 30-Minute Demo" | Mid-funnel blog CTAs, email nurture |
+| **Consideration** | "Compare AceX vs [Competitor]" | Comparison pages, retargeting ads |
+| **Consideration** | "Calculate Your ROI" | Blog posts, LinkedIn ads |
+| **Conversion** | "Start a ₹75,000 POC" | Bottom-funnel landing pages, email sequence |
+| **Conversion** | "Book a Demo" | Primary CTA — product pages, landing pages |
+| **Conversion** | "Talk to an Expert" | Enterprise / BFSI pages |
+| **Conversion** | "See a Live Collections Call Demo" | BFSI-specific pages |
+| **Conversion** | "Deploy Before Your Next Sale Season" | E-commerce seasonal urgency |
+| **Conversion** | "Get Your RFP-Ready Demo" | BPO-specific pages |
+| **Onboarding** | "See Your First 48 Hours" | Post-signup emails |
+| **Onboarding** | "Start with the Checklist" | Onboarding emails |
+| **Expansion** | "Explore Post Call Analytics" | In-product, CS outreach |
+| **Expansion** | "Add Your Second Use Case" | 90-day expansion email |
+
+### Supporting Copy Lines (below CTA buttons)
+
+*Use one of these as the "risk-reducer" line beneath the primary CTA button:*
+
+- "No engineering team needed"
+- "Up and running in 48 hours"
+- "DPDPA, RBI, and IRDAI compliant by default"
+- "Test before you go live — AI Evaluators included"
+- "₹75,000 starter. First agent live in 48 hours."
+- "One platform. One invoice. No Twilio."
+- "5,000+ businesses on the AceX platform"
+- "DoT-licensed VNO. India data residency guaranteed."
+
+---
+
+## PART 6: META TEMPLATES
+
+### Title Tag Formula
+```
+[Primary Keyword] — Acefone | [Benefit or Differentiator]
+```
+
+*Examples:*
+- `Voice Bot for E-commerce — Acefone | Deploy in 48 Hours, No Code`
+- `NBFC Collections Automation — Acefone | DPDPA & RBI Compliant`
+- `AceX vs Vapi — Acefone | India-Native Voice AI, No Twilio`
+- `Cloud Telephony India — Acefone | DoT-Licensed VNO, ₹999/User`
+- `Contact Center Dialer Software — Acefone | ₹1,499/User/Month`
+
+*Rules:*
+- Max 60 characters including brand
+- Primary keyword first — always
+- Brand name mid-tag, not at end
+- Benefit or differentiator at the end — make it specific, never generic
+
+---
+
+### Meta Description Formula
+```
+[Action verb] + [primary keyword] + [specific benefit] + [India-specific proof or differentiator]. [CTA]. Max 155 chars.
+```
+
+*Examples:*
+- `Deploy AI voice agents for COD confirmations without a developer. 60–70% lower call costs. DPDPA compliant. See a live demo.`
+- `Automate NBFC collections for DPD 1–30 with India-compliant voice AI. Hindi + Hinglish. ₹1/min. Book a demo today.`
+- `Compare AceX vs Vapi for India. No Twilio dependency. Single invoice. Pre-deployment AI Evaluators. Built for ops managers.`
+- `Cloud contact center dialer software starting at ₹1,499/user/month. 12+ report types, predictive dialer, 99.5% uptime.`
+
+*Rules:*
+- Always include a specific number, price, or proof point
+- Always end with an action phrase
+- Never start with "We" or "Acefone"
+- Max 155 characters — count including spaces
+
+---
+
+## PART 7: CASE STUDY TEMPLATE
+
+### Structure
+
+```
+TITLE: How [Company Type] [Achieved Outcome] in [Timeframe] with AceX
+
+HEADER STATS: [3 numbers in bold] — e.g., 62% cost reduction | 48 hours to first live agent | 0 engineering hours
+
+THE CHALLENGE (150–200 words)
+[Company description — type, size, context. No name if not approved.]
+[The specific operational problem. Use their language, not ours.]
+[Why existing solutions weren't working. Name the alternative they tried or considered.]
+[The trigger that made them start looking for a solution.]
+
+WHY ACEFONE (100–150 words)
+[What they evaluated. What made AceX the right fit.]
+[The specific features or proof points that tipped the decision.]
+[How long the evaluation took.]
+
+THE DEPLOYMENT (150–200 words)
+[What they built. What use case. How they configured it.]
+[How long it took to go live.]
+[Who configured it — ops manager? With engineering help? Without?]
+[What the AI Evaluator testing looked like before go-live.]
+
+THE RESULTS (150–200 words)
+[Primary metric — cost, conversion, time saved]
+[Secondary metrics]
+[Quote from the decision-maker — specific, outcome-focused]
+[What they're expanding to next]
+
+CTA
+[Relevant to the ICP this case study targets]
+```
+
+---
+
+## PART 8: CONTENT DO'S AND DON'TS
+
+### Do's
+
+**Writing**
+- Lead every piece with the pain or the outcome — never with the company or product
+- Use specific numbers: ₹150/call, 60–70% reduction, 48 hours, 500–600ms. Vague claims get ignored.
+- Write in second person ("your team", "you") in customer-facing content. First person in thought leadership.
+- Name the ICP in the first 100 words. E-commerce ops managers are not reading for BPO content.
+- Use India-native language: ₹ not $, DPDPA not "data privacy law", NBFC not "lender", Hinglish not "multilingual"
+- Mirror customer language from the VoC reference in the Business Context File
+- Match CTA urgency to the trigger context — crisis triggers get urgent CTAs, mandate triggers get educational CTAs
+- Reference AI Evaluators in every piece where pre-deployment testing is relevant — it's AceX's most unique differentiator
+- Always include one proof point per H2 section in blog posts — a number, a comparison, or an example
+- Use tables for comparisons, numbered lists for steps, bullets for features — never prose for all three
+
+**Structure**
+- Every blog post must have a meta title, meta description, and primary keyword defined before writing
+- Every landing page must have a clear primary CTA and a risk-reducer line below it
+- Every email must have one idea and one action. Not two.
+- Every comparison page must be honest — if a competitor is better at something, say so and explain why it doesn't matter for the ICP
+
+**Compliance**
+- Always verify pricing claims against the Business Context File before publishing
+- Always use "India data residency" not "secure servers" — the former is specific and verifiable
+- Always say "DoT-licensed VNO" when making infrastructure claims — this is the legal basis for the compliance moat
+
+---
+
+### Don'ts
+
+**Language**
+- Don't use: "cutting-edge", "innovative", "state-of-the-art", "next-generation", "revolutionary", "game-changing", "seamless", "robust", "leverage" (as a verb), "empower" (unless quoting)
+- Don't start headlines with "We" or "Our"
+- Don't use passive voice in CTAs: "Get started" not "Get started today by clicking below"
+- Don't use USD pricing in India-targeted content — always ₹
+- Don't say "multilingual" when you mean Hinglish — be specific
+- Don't write "AI-powered" before every feature — it's the baseline expectation now, not a differentiator
+
+**Claims**
+- Don't claim specific customer names, outcomes, or ROI numbers without written approval
+- Don't claim a feature or integration that isn't listed in the Business Context File product section
+- Don't claim "only platform in India" for any category without verified competitive research
+- Don't invent compliance certifications — only claim DoT, TRAI, DPDPA, RBI, IRDAI, ISO, CERT-IN VAPT
+- Don't call the competitor "worse" — show what AceX does differently and for whom
+
+**Structure**
+- Don't use more than one primary CTA per page or email
+- Don't write blog conclusions that just summarise what was already said — reframe or add a new dimension
+- Don't use more than 3 levels of hierarchy (H1 → H2 → H3) in any single piece
+- Don't let a blog post go live without a meta title and meta description
+- Don't use generic stock image descriptions — content should be specific to the India ops manager context
+
+**Tone**
+- Don't over-explain AceX's backstory in every piece — get to the reader's problem first
+- Don't end emails with "Please let me know if you have any questions" — it's filler
+- Don't apologise or hedge: "might", "could potentially", "we believe" — if it's a product claim, state it
+- Don't write blog posts that could have been written by any cloud telephony company — every piece should have at least one India-specific data point or AceX-specific differentiator
+
+---
+
+## PART 9: SEO KEYWORD REFERENCE
+
+*Primary keyword clusters by ICP and product. Use when assigning keywords to content.*
+
+### Voice Bot / AI Voice
+
+| Intent | Primary Keyword | Secondary Keywords |
+|---|---|---|
+| Category awareness | voice bot India | AI voice agent India, conversational AI India |
+| No-code positioning | no code voice AI India | voice AI without developer, ops manager voice bot |
+| Competitor comparison | Vapi alternative India | Retell AI India, Yellow.ai alternative, build vs buy voice AI |
+| Compliance | DPDPA voice AI | RBI compliant voice bot, IRDAI call recording compliance |
+| E-commerce use case | COD confirmation automation | COD voice bot, ecommerce voice AI India, RTO reduction |
+| BFSI use case | NBFC collections automation | DPD collections voice bot, collections AI India |
+| BPO use case | BPO AI RFP | contact center AI India, voice AI for BPO |
+
+### Cloud Telephony / Omnichannel
+
+| Intent | Primary Keyword | Secondary Keywords |
+|---|---|---|
+| Category | cloud telephony India | VoIP India, business phone system India |
+| Dialer | smart dialer India | auto dialer software India, predictive dialer India |
+| Contact center | contact center software India | CCaaS India, cloud contact center India |
+| Competitor comparison | Exotel alternative | Ozonetel alternative, MyOperator alternative |
+| Omnichannel | omnichannel communication platform India | unified inbox India, WhatsApp + voice India |
+| Broadcast | voice broadcast India | bulk voice call India, IVR broadcast India |
+| Analytics | call analytics India | post call analytics AI, speech analytics India |
+
+---
+
+## PART 10: QUICK-FILL VARIABLES
+
+*Frequently used values. Copy-paste into templates.*
+
+```
+COMPANY:          Acefone (Servetel Infocomm Pvt Ltd)
+PLATFORM:         AceX Platform
+PRIMARY PRODUCT:  AceX Voice Bot
+TAGLINE:          Create AI voice agents on the go — without engineering teams.
+STARTER PRICE:    ₹75,000 for 12,500 minutes
+TARGET PRICE/MIN: ₹1/min
+LATENCY:          500–600ms voice-to-voice | 50–75ms platform streaming
+DEPLOYMENT TIME:  48 hours to first live agent
+COST REDUCTION:   60–70% (₹150 → ₹50 per call)
+SCALE PROOF:      200M calls in 12 hours (Campaigns)
+CUSTOMER BASE:    5,000+ businesses
+UPTIME:           99.5%
+ANNUAL CALLS:     2.5 billion
+COMPLIANCE:       DoT-licensed VNO | DPDPA 2023 | RBI data localisation | IRDAI | ISO | CERT-IN VAPT
+TELEPHONY:        150+ countries, Tier-1 India carriers
+IH PRICING:       ₹999 (Starter) | ₹1,599 (Pro) | ₹2,199 (Ultra)
+CCS PRICING:      ₹1,499 (non-autodial) | ₹1,999 (autodial)
+VS PRICING:       ~₹0.3/60s usage or ₹400–600/concurrent channel
+PCA PRICING:      ~₹1,000/1,000 min/user
+KEY DIFFERENTIATOR #1: Only India VNO with native voice AI — no Twilio, no third-party telephony
+KEY DIFFERENTIATOR #2: AI Evaluators — pre-deployment testing with AI-simulated users (unique in market)
+KEY DIFFERENTIATOR #3: No-code — ops managers build agents, not developers
+```
+
+---
+
+*Document owner: PMM | Update triggers: New product capability, pricing change, new customer language, competitor positioning shift | Load alongside: Acefone_Business_Context_File.md*
