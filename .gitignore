@@ -1,0 +1,17 @@
+# Local Claude Code permissions (may contain API tokens)
+.claude/settings.local.json
+
+# Secrets and environment files
+.env
+.env.*
+secrets.*
+*.secret
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
