@@ -50,7 +50,7 @@ Match on category name, material type, or natural language keywords.
 ## Notion Sources of Truth
 
 - **Marketing Knowledge Base** (brand voice, product info, templates): `https://www.notion.so/Knowledge-Base-Acefone-efe6330059da82c9b4b2015c19b7cad7`
-- **Editorial Database** (shared with content marketing agent): `https://www.notion.so/Content-Editorial-360894d6fa5d81cba633d793fc6bfcf0`
+- **Sales Editorials Database** (collateral-only — every collateral deliverable logs here): `https://www.notion.so/Sales-Editorials-3686330059da80f58744ead02e7ef2e0`
 
 Never read the full KB. Always phrase-match with `notion-search` and `notion-fetch` only matched pages.
 
