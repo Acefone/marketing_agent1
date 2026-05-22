@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__claude_ai_Notion__notion-fetch",
+      "mcp__claude_ai_Notion__notion-search",
+      "mcp__claude_ai_Notion__notion-create-pages",
+      "mcp__claude_ai_Notion__notion-update-page",
+      "mcp__claude_ai_Notion__notion-get-users",
+      "mcp__claude_ai_Notion__notion-get-comments",
+      "mcp__claude_ai_Notion__notion-create-comment",
+      "mcp__claude_ai_Gamma__generate",
+      "mcp__claude_ai_Gamma__generate_from_template",
+      "mcp__claude_ai_Gamma__get_themes",
+      "mcp__claude_ai_Gamma__get_gammas",
+      "mcp__claude_ai_Gamma__get_generation_status",
+      "mcp__claude_ai_Gamma__get_folders",
+      "mcp__claude_ai_Gamma__read_gamma"
+    ]
+  }
+}

@@ -25,7 +25,8 @@ The user may directly invoke a category skill:
 - `/long-form` — long-form content
 - `/thought-leadership` — thought leadership content
 - `/web-copy` — web copywriting
-- `/sales-collateral` — sales collateral
+
+For designed customer-facing collateral (ebooks, brochures, flyers, case studies, slide decks), use the **Collateral Agent** at `../collateral agent/`. This agent no longer routes those material types.
 
 ---
 
@@ -39,7 +40,6 @@ Match on category name, material type, or natural language keywords.
 | Thought leadership article | `/thought-leadership` | `/deep-research` then `/thought-leadership` |
 | Thought leadership LinkedIn post | `/thought-leadership` | `/deep-research` then `/thought-leadership` |
 | Landing page, product page, solution page, web page | `/web-copy` | `/web-copy` |
-| Brochure, flyer, slide deck, product deck, case study | `/sales-collateral` | `/sales-collateral` |
 
 **Rule:** Always invoke skills in the listed order. For long-form and thought leadership, `/deep-research` must complete before the content skill is loaded.
 
