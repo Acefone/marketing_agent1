@@ -25,6 +25,7 @@ The user may directly invoke a category skill:
 - `/long-form` — long-form content
 - `/thought-leadership` — thought leadership content
 - `/web-copy` — web copywriting
+- `/email-marketer` — marketing email copy (product launch, re-engagement, retargeting, lead nurture)
 
 For designed customer-facing collateral (ebooks, brochures, flyers, case studies, slide decks), use the **Collateral Agent** at `../collateral agent/`. This agent no longer routes those material types.
 
@@ -40,8 +41,9 @@ Match on category name, material type, or natural language keywords.
 | Thought leadership article | `/thought-leadership` | `/deep-research` then `/thought-leadership` |
 | Thought leadership LinkedIn post | `/thought-leadership` | `/deep-research` then `/thought-leadership` |
 | Landing page, product page, solution page, web page | `/web-copy` | `/web-copy` |
+| Marketing email, email copy, email sequence, product launch email, re-engagement / win-back email, cold/dead/lost lead email, retargeting email, lead nurture / drip sequence | `/email-marketer` | `/email-marketer` |
 
-**Rule:** Always invoke skills in the listed order. For long-form and thought leadership, `/deep-research` must complete before the content skill is loaded.
+**Rule:** Always invoke skills in the listed order. For long-form and thought leadership, `/deep-research` must complete before the content skill is loaded. `/email-marketer` runs without a research step unless the brief needs a fresh external proof point.
 
 ---
 
@@ -86,9 +88,14 @@ For thought leadership, also collect:
 Execute the loaded content skill with KB context + brief. Follow all instructions within the skill file.
 
 ### Step 6 — Log to Editorial Database
-After content is created:
-1. Fetch the Notion editorial database at `https://www.notion.so/Content-Editorial-360894d6fa5d81cba633d793fc6bfcf0` to inspect its schema (columns, select options, etc.).
-2. Use `notion-create-pages` to log the content entry, matching the exact schema found.
+After content is created, log to the database that matches the deliverable:
+
+- **Email deliverables (`/email-marketer`)** → **Email Editorials** DB at `https://app.notion.com/p/da1bba00e0284e9b9325ef6dab0b34a0` (data source `collection://1fb152c0-7a9b-4584-b495-8a2d76fe43e2`). Follow the logging instructions inside the `/email-marketer` skill (one page per email in a sequence).
+- **All other content** → Content-Editorial DB at `https://www.notion.so/Content-Editorial-360894d6fa5d81cba633d793fc6bfcf0`.
+
+In both cases:
+1. Fetch the target database/data source to inspect its current schema (columns, select options, etc.).
+2. Use `notion-create-pages` to log the entry, matching the exact schema found.
 
 ---
 
