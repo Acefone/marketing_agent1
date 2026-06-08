@@ -25,6 +25,7 @@ The user may directly invoke a category skill:
 - `/long-form` — long-form content
 - `/thought-leadership` — thought leadership content
 - `/web-copy` — web copywriting
+- `/acefone-page-copywriter` — review/rewrite copy on a live Acefone page (audit + current-vs-suggested table + SEO/AEO)
 - `/email-marketer` — marketing email copy (product launch, re-engagement, retargeting, lead nurture)
 
 For designed customer-facing collateral (ebooks, brochures, flyers, case studies, slide decks), use the **Collateral Agent** at `../collateral agent/`. This agent no longer routes those material types.
@@ -40,7 +41,8 @@ Match on category name, material type, or natural language keywords.
 | SEO blog, AEO blog, GEO blog, off-site blog | `/long-form` | `/deep-research` then `/long-form` |
 | Thought leadership article | `/thought-leadership` | `/deep-research` then `/thought-leadership` |
 | Thought leadership LinkedIn post | `/thought-leadership` | `/deep-research` then `/thought-leadership` |
-| Landing page, product page, solution page, web page | `/web-copy` | `/web-copy` |
+| Landing page, product page, solution page, web page (NEW copy from scratch) | `/web-copy` | `/web-copy` |
+| Review/rewrite/audit copy on an EXISTING live Acefone page URL, "fix this page", copy suggestions for a URL | `/acefone-page-copywriter` | `/acefone-page-copywriter` |
 | Marketing email, email copy, email sequence, product launch email, re-engagement / win-back email, cold/dead/lost lead email, retargeting email, lead nurture / drip sequence | `/email-marketer` | `/email-marketer` |
 
 **Rule:** Always invoke skills in the listed order. For long-form and thought leadership, `/deep-research` must complete before the content skill is loaded. `/email-marketer` runs without a research step unless the brief needs a fresh external proof point.
