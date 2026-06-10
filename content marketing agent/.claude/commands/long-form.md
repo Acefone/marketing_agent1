@@ -229,7 +229,7 @@ Run this self-check before delivering the draft. Do not present output until all
 - [ ] Every sentence is under 20 words
 - [ ] US English spelling and grammar throughout
 - [ ] Every body section ends with a `> TL;DR:` line
-- [ ] FAQ block has 3–5 questions in H3 format with direct 60–100 word answers
+- [ ] FAQ block has 5–6 questions in H3 format with direct 60–100 word answers
 - [ ] FAQ block is placed last, after the Conclusion and the Primary CTA
 - [ ] At least one contrarian FAQ included
 - [ ] Primary keyword in H1, first 100 words, and at least one H2
@@ -242,6 +242,4 @@ Run this self-check before delivering the draft. Do not present output until all
 - [ ] **Flow:** sections connect into one continuous argument, not a stack of standalone blocks
 - [ ] Exactly one CTA, the Primary CTA at the end, matched to the funnel stage. No CTA anywhere in the body
 - [ ] Meta elements complete (title tag, meta description, slug)
-- [ ] JSON-LD schema block present and populated (skip if the calling workflow disabled schema output)
 - [ ] Visual suggestions present after each major section
-- [ ] Syndication Recommendation included
