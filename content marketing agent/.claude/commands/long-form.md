@@ -34,7 +34,7 @@ These rules override any structural rule below if they ever conflict. A draft th
 - Recast the sentence instead. Use a full stop, a comma, a colon, parentheses, or split into two sentences. Do not reach for a dash as a default connector.
 
 ### Mechanics: length and spelling
-- **Headings:** every heading (H1, H2, H3) is under 9 words. Eight words is the hard ceiling.
+- **Headings:** every heading (H1, H2, H3) is under 9 words. Eight words is the hard ceiling.   
 - **Sentences:** every sentence is under 20 words. This applies everywhere, including the Section Answer blocks, TL;DR lines, FAQ answers, meta description, and CTA. Split long sentences in two.
 - **US English** spelling and grammar in all generated output: optimize, center, behavior, analyze, organization, prioritize, defense. (These skill instructions are written in British English; the output is not.)
 
@@ -115,7 +115,7 @@ PRIMARY CTA BLOCK
   — The post's ONLY CTA. Matched to funnel stage (see Conversion Rules)
   — One paragraph max
 
-FAQ BLOCK [3–5 questions] — placed last, after the Primary CTA
+FAQ BLOCK [5-6 questions] — placed last, after the Primary CTA
   ### [Question in H3]
   [60–100 word direct answer — no conversational filler]
 
@@ -134,7 +134,6 @@ FAQ BLOCK [3–5 questions] — placed last, after the Primary CTA
 - FAQ block uses H3 question headings with 60–100 word answers — no conversational padding. Draw the questions from the real People Also Ask queries and SERP features in the Research Brief wherever available
 - For any technical term used for the first time, add a definition block immediately after its first use:
   > **[Term]** — [one-sentence definition]
-- At the end of the draft, output a JSON-LD Article schema block with these fields pre-filled from the brief: `headline`, `author`, `datePublished`, `description`, `publisher`. **If the calling workflow explicitly disables schema output**, skip this block and the matching Quality Gate item.
 
 ---
 
@@ -145,7 +144,6 @@ FAQ BLOCK [3–5 questions] — placed last, after the Primary CTA
 - **Structure around real answer-engine demand.** Use the Google "People Also Ask" questions and SERP features (featured-snippet phrasing, related searches) captured in the Research Brief for the primary keyword. Mirror those exact queries in your H2s and FAQ questions so the post is built to win answer-engine extraction. Use only the questions surfaced during research. Do not invent them.
 - Build semantic richness: identify 3–5 related concepts from the Research Brief for the primary keyword and weave them naturally through body sections — do not force them
 - Authoritative tone throughout — state Acefone's perspective confidently, not tentatively
-- After the Editor Notes section, include a **Syndication Recommendation**: list 2–3 platforms where this post should be published or cross-posted to build multi-platform LLM signal (e.g. LinkedIn Article, Medium, industry forum)
 
 ---
 
@@ -153,8 +151,8 @@ FAQ BLOCK [3–5 questions] — placed last, after the Primary CTA
 
 - **Keyword placement:**
   - Primary keyword: H1, first 100 words of Introduction, at least one H2, meta description
-  - Secondary keywords: distributed naturally — max 1–2 occurrences per 500 words
-- **Internal linking:** recommend 2–3 internal links using anchor text that matches the target page's topic
+  - Secondary keywords: distributed naturally — max 2-3 occurrences per 200 words
+- **Internal linking:** recommend 1 internal link every 200-300 words using anchor text that matches the target page's topic
   - Mark in draft as: `[INTERNAL LINK: topic/page description]`
   - Never place an internal link in the Introduction
 - **External linking:** cite at least 2 authoritative external sources (government body, academic paper, or tier-1 industry publication)
@@ -205,28 +203,6 @@ Deliver the complete post in this exact order:
 
 ---
 
-### Schema Markup (JSON-LD)
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "",
-  "author": {
-    "@type": "Person",
-    "name": "",
-    "jobTitle": ""
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Acefone"
-  },
-  "datePublished": "",
-  "description": ""
-}
-```
-
----
-
 ### Visual Suggestions
 [Numbered list — each with type, description, and recommended alt text]
 
@@ -234,11 +210,6 @@ Deliver the complete post in this exact order:
 
 ### Internal Links to Resolve
 [List of all `[INTERNAL LINK: ...]` placeholders from the draft]
-
----
-
-### Syndication Recommendation
-[2–3 platforms for cross-posting to build multi-platform LLM signal]
 
 ---
 
@@ -266,7 +237,7 @@ Run this self-check before delivering the draft. Do not present output until all
 - [ ] No citation appears in the first 2-3 paragraphs of the post
 - [ ] H2s and/or FAQ questions mirror real People Also Ask questions or SERP features from the Research Brief
 - [ ] **Citation integrity:** every statistic, figure, study, and quote traces to a real source URL from the Research Brief. Zero invented numbers, sources, or quotes
-- [ ] **No em dashes or en dashes anywhere** in draft, headings, meta, FAQ, callouts, or notes
+- [ ] No em dashes or en dashes anywhere in draft, headings, meta, FAQ, callouts, or notes
 - [ ] **Voice:** written in first person as Acefone, active voice, reads like an expert talking to a peer (not a whitepaper)
 - [ ] **Flow:** sections connect into one continuous argument, not a stack of standalone blocks
 - [ ] Exactly one CTA, the Primary CTA at the end, matched to the funnel stage. No CTA anywhere in the body
