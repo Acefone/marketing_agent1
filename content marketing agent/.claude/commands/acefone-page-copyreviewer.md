@@ -1,5 +1,5 @@
 ---
-name: acefone-page-copywriter
+name: acefone-page-copyreviewer
 description: >
   Reviews and rewrites Acefone landing page copy section by section. Fetches a live URL,
   pulls brand voice/positioning/approved stats from Notion knowledge base, runs a severity-flagged
